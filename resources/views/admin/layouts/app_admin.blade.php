@@ -14,6 +14,8 @@
     <script src="{{ asset('bootstrap/js/bootstrap.min.js') }}" defer></script>
 
     <!-- Fonts -->
+    <link rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
 
@@ -39,7 +41,7 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"
                         role="button" aria-expanded="false">Блог</a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Категории</a> </li>
+                            <li><a href="{{route('admin.category.index')}}">Категории</a> </li>
                             <li><a href="#">Материалы</a> </li>
                         </ul>
                     </li>
